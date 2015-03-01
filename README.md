@@ -1,2 +1,2 @@
 # hungry_monkey
-New website for funky breakfast spot.
+New website for funky breakfast spot
