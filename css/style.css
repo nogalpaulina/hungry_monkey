@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-	background-image: url("1background.jpg");
+	background-image: url("../img/1background.jpg");
 	background-attachment: fixed;
 }
 
@@ -32,7 +32,7 @@ body {
 	background-color: black;
 	border-style: double;
 	border-color: gray;
-	padding: 6px;
+	padding: 15px;
 	font-weight: bold;
 	color: rgb(205,149,12);
 }
@@ -93,6 +93,7 @@ body {
 }
 
 #footer {
+	background: black;
 	clear: both;
 	border-top: solid 6px black;
 	font-weight: bold;
@@ -121,4 +122,47 @@ img.logo2 {
 	text-align: center;
 	display: block;
 	margin: 0px auto;
+}
+
+#iframe {
+	width: 400px;
+	height: 300px;
+}
+
+#contact  {
+	background-color: black;
+	height: 250px;
+	margin-top: -22px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(205,149,12);
+}
+
+#contact a {
+	color: rgb(205,149,12);
+
+}
+
+
+#images {
+	background-color: black;
+}
+
+#images img {
+	width: 150px;
+	height: 120px;
+	padding: 20px;
+}
+
+#menu {
+	padding: 30px;
+	background-color: black;
+	color: rgb(205,149,12);
+	
+}
+
+#menu h3 {
+	border-width: 2px;
+	border-color: rgb(205,149,12);
 }
