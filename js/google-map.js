@@ -1,11 +1,20 @@
 function init() {
+	var myLatLng = new google.maps.LatLng(41.493191,-71.310520);
+
 	var mapOptions = {
-		center: new google.maps.LatLng(40.782710,-73.965310),
+		center: myLatLng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		zoom: 13
+		zoom: 18
 	};
-	var venueMap;
-	venueMap = new google.maps.Map(document.getElementById('map'),mapOptions);
+
+	var venueMap = new google.maps.Map(document.getElementById('map'),mapOptions);
+
+	var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: venueMap,
+      title: 'Hungry Monkey'
+  	});
+
 }
 function loadScript() {
 	var script = document.createElement('script');

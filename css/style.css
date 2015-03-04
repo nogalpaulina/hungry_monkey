@@ -32,7 +32,7 @@ body {
 	background-color: black;
 	border-style: double;
 	border-color: gray;
-	padding: 15px;
+	padding: 15px 50px 15px 160px;
 	font-weight: bold;
 	color: rgb(205,149,12);
 }
@@ -131,7 +131,7 @@ img.logo2 {
 
 #contact  {
 	background-color: black;
-	height: 250px;
+	height: 700px;
 	margin-top: -22px;
 	text-align: center;
 	font-size: 18px;
@@ -147,6 +147,7 @@ img.logo2 {
 
 #images {
 	background-color: black;
+	padding-left: 60px;
 }
 
 #images img {
@@ -165,4 +166,11 @@ img.logo2 {
 #menu h3 {
 	border-width: 2px;
 	border-color: rgb(205,149,12);
+}
+
+
+#map {
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
 }
